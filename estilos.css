@@ -1,0 +1,104 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fffaf0;
+    color: #333;
+}
+
+header {
+    background: #ff6f61;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+nav {
+    background: #ff9f80;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('https://cdn2.salud180.com/sites/default/files/palomitas_1111.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.flavors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.flavor-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 250px;
+    padding: 20px;
+}
+
+.flavor-card h3 {
+    color: #ff6f61;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e55b4c;
+}
+
+footer {
+    background: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+}
