@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>TheExopop - Palomitas Exóticas</title>
+    <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+<section class="hero">
+        <h2>Explora los sabores más exóticos de todas partes del mundo... ¡en cada palomita!</h2>
+        <p>un sabor diferente en cada estallido 🍿🔥</p>
+    </section>
+    <section class="section" id="sabores">
+        <h2>Nuestos Sabores Estrella</h2>
+        <div class="flavors">
+            <div class="flavor-card">
+                <h3>Mango Picante</h3>
+                <p>Una mezcla tropical con un toque de chile que enciende tu paladar.</p>
+            </div>
+            
+            <div class="flavor-card">
+                <h3>Básicas</h3>
+                <p>Clásicas y perfectas: sal marina, pimienta negra o limón fresco.</p>
+            </div>
+
+            <div class="flavor-card">
+                <h3>Dragon Azul</h3>
+                <p>Ricas palomitas con un punto picante y un color llamativo.</p>
+            </div>
+
+            <div class="flavor-card">
+                <h3>Oreo</h3>
+                <p>Galleta Oreo triturada que aporta dulzura y crujiente en cada bocado.</p>
+            </div>
+
+            <div class="flavor-card">
+                <h3>Chocolate</h3>
+                <p>Chocolate intenso y sedoso para los amantes del placer clásico.</p>
+            </div>
+
+            <div class="flavor-card">
+                <h3>Limón‑Pimienta</h3>
+                <p>Fresco y atrevido: limón brillante con un toque de pimienta negra.</p>
+            </div>
+
+            <div class="flavor-card">
+                <h3>Oreo‑Choco</h3>
+                <p>La mejor dupla: Oreo crujiente bañada en suave chocolate.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
